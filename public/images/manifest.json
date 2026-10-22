@@ -1,0 +1,90 @@
+{
+  "stock-fall-leaves-along-curb.jpg": {
+    "width": 2400,
+    "height": 3600,
+    "alt": "Dry brown fall leaves gathered in a line along a concrete street curb beside a parked car tire",
+    "base": "stock-fall-leaves-along-curb",
+    "sizes": [
+      640,
+      1024,
+      1920
+    ]
+  },
+  "stock-fall-leaves-blower-lawn.jpg": {
+    "width": 2400,
+    "height": 1524,
+    "alt": "Fallen yellow leaves blown into the air across a lawn as a walk-behind leaf blower clears the grass",
+    "base": "stock-fall-leaves-blower-lawn",
+    "sizes": [
+      640,
+      1024,
+      1920
+    ]
+  },
+  "stock-hedge-trimmer-round-shrub.jpg": {
+    "width": 2400,
+    "height": 1600,
+    "alt": "Hedge trimmer blade shaping the top of a dense rounded evergreen shrub with clippings flying",
+    "base": "stock-hedge-trimmer-round-shrub",
+    "sizes": [
+      640,
+      1024,
+      1920
+    ]
+  },
+  "stock-lawn-sprinkler-spraying.jpg": {
+    "width": 2400,
+    "height": 1600,
+    "alt": "Lawn sprinkler head spraying a fan of water across green grass in a shaded yard at dusk",
+    "base": "stock-lawn-sprinkler-spraying",
+    "sizes": [
+      640,
+      1024,
+      1920
+    ]
+  },
+  "stock-old-furniture-pile-junk.jpg": {
+    "width": 2400,
+    "height": 1349,
+    "alt": "Pile of worn sofas, armchairs, and broken furniture stacked outside a garage door waiting to be hauled away",
+    "base": "stock-old-furniture-pile-junk",
+    "sizes": [
+      640,
+      1024,
+      1920
+    ]
+  },
+  "stock-red-rake-leaf-pile.jpg": {
+    "width": 2400,
+    "height": 1601,
+    "alt": "Red plastic rake resting on a raked pile of yellow and brown fall leaves on pavement",
+    "base": "stock-red-rake-leaf-pile",
+    "sizes": [
+      640,
+      1024,
+      1920
+    ]
+  },
+  "stock-spring-tulip-bed-lawn.jpg": {
+    "width": 2000,
+    "height": 1600,
+    "alt": "Spring tulips in a neatly edged planting bed around a tree trunk on a suburban front lawn",
+    "base": "stock-spring-tulip-bed-lawn",
+    "sizes": [
+      640,
+      1024,
+      1920
+    ]
+  },
+  "stock-stone-edged-flower-bed.jpg": {
+    "width": 2400,
+    "height": 1503,
+    "alt": "Curved flower bed of daylilies and daisies lined with stone edging along a freshly cut green lawn",
+    "base": "stock-stone-edged-flower-bed",
+    "sizes": [
+      640,
+      1024,
+      1920
+    ]
+  }
+}
