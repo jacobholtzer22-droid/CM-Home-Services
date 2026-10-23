@@ -299,6 +299,14 @@ export const siteConfigSchema = z
       .array(z.object({ label: z.string().min(4), href: z.string().startsWith('/').nullable() }))
       .default([]),
 
+    /**
+     * Before and after pairs from the same job, rendered by components/BeforeAfter.tsx.
+     * Filenames are keys in public/images/manifest.json. Empty renders nothing.
+     */
+    beforeAfter: z
+      .array(z.object({ before: z.string().min(2), after: z.string().min(2), caption: z.string().min(4) }))
+      .default([]),
+
     /** How-it-works steps, in order. Empty renders nothing. */
     process: z.array(z.object({ title: z.string().min(4), text: z.string().min(10) })).default([]),
 

@@ -267,21 +267,28 @@ const siteConfig = {
   ],
 
   images: {
-    hero: 'job-front-bed-rock-border-after.jpg',
+    hero: 'job-paver-patio-arborvitae.jpg',
     about: 'job-bed-around-stone-wall.jpg',
-    // Owner job photos only, finished jobs first and "before" shots last. The hero photo is not repeated here.
+    // Owner job photos outside the hero and beforeAfter, except job-front-bed-after.jpg,
+    // which is also pair 3's after: it is the only other front-yard shot. Stock never goes here.
     gallery: [
-      'job-paver-patio-arborvitae.jpg',
-      'job-side-bed-after.jpg',
-      'job-island-bed-shed.jpg',
-      'job-front-bed-after.jpg',
-      'job-bed-around-stone-wall.jpg',
-      'job-side-bed-before.jpg',
-      'job-front-bed-rock-border-before.jpg',
-      'job-front-bed-before.jpg',
       'job-paver-patio-border-curve.jpg',
+      'job-island-bed-shed.jpg',
+      'job-bed-around-stone-wall.jpg',
+      'job-front-bed-after.jpg',
     ],
   },
+
+  // Before and after shots of the same job, before first.
+  beforeAfter: [
+    { before: 'job-side-bed-before.jpg', after: 'job-side-bed-after.jpg', caption: 'Side bed cleanup and edging' },
+    {
+      before: 'job-front-bed-rock-border-before.jpg',
+      after: 'job-front-bed-rock-border-after.jpg',
+      caption: 'Front bed with river rock border',
+    },
+    { before: 'job-front-bed-before.jpg', after: 'job-front-bed-after.jpg', caption: 'Front bed cleanup' },
+  ],
 
   contactForm: {
     splitName: false,

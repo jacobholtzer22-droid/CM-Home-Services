@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import AreaList from '@/components/AreaList'
+import BeforeAfter from '@/components/BeforeAfter'
 import CtaBand from '@/components/CtaBand'
 import FaqAccordion from '@/components/FaqAccordion'
 import Gallery from '@/components/Gallery'
@@ -34,6 +35,7 @@ export default async function HomePage() {
       <div className="mx-auto max-w-page px-4 sm:px-6">
         <TrustStrip />
       </div>
+      <BeforeAfter />
       <Gallery heading={`Recent Work in ${config.primaryCity} and Nearby Towns`} />
       <ServiceGrid />
       <article className="mx-auto max-w-3xl px-4 pb-16 sm:px-6">{content}</article>
