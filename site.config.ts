@@ -17,10 +17,10 @@ const siteConfig = {
   phone: '+16096082645',
   email: 'cmhomeservicesnj@gmail.com',
 
-  // The street is the owner's home address. It is never shown on a page; the
-  // schema requires a street, so it appears only in the LocalBusiness JSON-LD.
+  // The street is the owner's home address, so it is null: never shown and
+  // never in JSON-LD. City, state, and ZIP still publish.
   address: {
-    street: '30 Kay Rd',
+    street: null,
     city: 'Hamilton Township',
     state: 'NJ',
     zip: '08620',

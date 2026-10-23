@@ -51,7 +51,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           {children}
         </main>
         <Footer />
-        <MobileCallBar />
+        <MobileCallBar phone={config.phone} phoneDisplay={config.phoneDisplay} />
       </body>
     </html>
   )

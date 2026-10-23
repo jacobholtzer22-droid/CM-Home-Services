@@ -85,7 +85,7 @@ export function localBusiness(areas: readonly ServiceArea[] = config.serviceArea
     ...when(c.address, (a) => ({
       address: {
         '@type': 'PostalAddress',
-        streetAddress: a.street,
+        ...when(a.street, (street) => ({ streetAddress: street })),
         addressLocality: a.city,
         addressRegion: a.state,
         postalCode: a.zip,

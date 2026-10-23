@@ -77,7 +77,8 @@ export const siteConfigSchema = z
      */
     address: z
       .object({
-        street: z.string().min(3),
+        /** null keeps a home-based street off the site and out of JSON-LD; city, state, and ZIP still publish. */
+        street: z.string().min(3).nullable(),
         city: z.string().min(2),
         state: z.string().length(2),
         zip: z.string().regex(/^\d{5}$/),
