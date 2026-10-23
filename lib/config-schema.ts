@@ -291,9 +291,6 @@ export const siteConfigSchema = z
     /** Overrides the derived homepage H1 ("<primary service> in <city>, <state>"). null keeps the derived one. */
     heroHeading: z.string().min(10).nullable().default(null),
 
-    /** Heading over the homepage contact form section. null hides the homepage form section. */
-    homeFormHeading: z.string().min(10).nullable().default(null),
-
     /**
      * Short trust line under the hero, after the phone. Only facts from the
      * brief. href links the item to an internal route. Empty renders nothing.
@@ -301,9 +298,6 @@ export const siteConfigSchema = z
     trustItems: z
       .array(z.object({ label: z.string().min(4), href: z.string().startsWith('/').nullable() }))
       .default([]),
-
-    /** Homepage "why us" points. Empty renders nothing. */
-    benefits: z.array(z.object({ title: z.string().min(4), text: z.string().min(10) })).default([]),
 
     /** How-it-works steps, in order. Empty renders nothing. */
     process: z.array(z.object({ title: z.string().min(4), text: z.string().min(10) })).default([]),

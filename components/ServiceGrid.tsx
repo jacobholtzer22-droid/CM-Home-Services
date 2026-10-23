@@ -25,10 +25,17 @@ export default function ServiceGrid({ heading = 'Our Services', exclude }: Props
               <span className="font-heading text-sm font-semibold tabular-nums text-primary md:col-span-1">
                 {String(i + 1).padStart(2, '0')}
               </span>
-              <div className="overflow-hidden rounded-site md:col-span-2">
-                {s.image && <Img name={s.image} sizes="(min-width: 768px) 16vw, 100vw" className="aspect-[4/3] h-auto w-full object-cover" />}
-              </div>
-              <h3 className="font-heading text-2xl font-semibold text-primary-dark group-hover:text-primary md:col-span-3">{s.name}</h3>
+              {/* No image, no frame: the name takes the photo's columns instead of leaving an empty slot. */}
+              {s.image && (
+                <div className="overflow-hidden rounded-site md:col-span-2">
+                  <Img name={s.image} sizes="(min-width: 768px) 16vw, 100vw" className="aspect-[4/3] h-auto w-full object-cover" />
+                </div>
+              )}
+              <h3
+                className={`font-heading text-2xl font-semibold text-primary-dark group-hover:text-primary ${s.image ? 'md:col-span-3' : 'md:col-span-5'}`}
+              >
+                {s.name}
+              </h3>
               <p className="text-base leading-relaxed text-muted md:col-span-4">{s.shortDescription}</p>
               <span className="text-sm font-semibold text-ink md:col-span-2 md:text-right">
                 {s.priceFrom !== null ? `From $${s.priceFrom}` : 'Free estimate'}

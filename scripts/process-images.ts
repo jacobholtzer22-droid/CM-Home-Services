@@ -3,7 +3,7 @@ import path from 'node:path'
 import sharp from 'sharp'
 
 /**
- * Converts everything in public/images/originals/ to WebP at 640/1024/1920
+ * Converts everything in public/images/originals/ to WebP at 640/1024/1920/2560
  * (never wider than the original) and writes public/images/manifest.json.
  *
  * The manifest is keyed by ORIGINAL FILENAME, never by array position. A
@@ -19,7 +19,7 @@ const ROOT = process.cwd()
 const ORIGINALS = path.join(ROOT, 'public/images/originals')
 const PROCESSED = path.join(ROOT, 'public/images/processed')
 const MANIFEST = path.join(ROOT, 'public/images/manifest.json')
-const WIDTHS = [640, 1024, 1920]
+const WIDTHS = [640, 1024, 1920, 2560]
 const QUALITY = 82
 const EXTENSIONS = new Set(['.jpg', '.jpeg', '.png', '.webp', '.tif', '.tiff', '.avif', '.gif'])
 

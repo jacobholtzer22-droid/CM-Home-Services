@@ -66,7 +66,7 @@ const theme: Theme = {
     onPrimary: '#F2F6FA',
     onAccent: '#FFFFFF',
   },
-  heroVariant: 'full-bleed',
+  heroVariant: 'split',
   radius: 0.375,
   shadow: '0 1px 2px rgb(20 30 24 / 0.08)',
   // Cut from the owner's logo file (brand/logo-owner-black-bg.png) with the black matte removed.

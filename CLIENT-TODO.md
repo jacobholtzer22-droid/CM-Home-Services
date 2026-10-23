@@ -1,6 +1,6 @@
 # Questions for the owner
 
-1. Thanks for the logo and the first job photos. Can you send the logo as a transparent PNG or SVG, and more job photos: fall cleanups, junk loads, trimmed hedges, irrigation, and an after shot of the overgrown pool and deck yard?
+1. Send fall cleanup and junk removal photos from the next three jobs, shot from the street, before and after, even quick phone shots. Those two pages have no photos right now.
 2. Is your home base Hamilton Township, NJ 08620 (the area around 30 Kay Rd)?
 3. Do you want your street address shown anywhere on the site, or kept off it?
 4. Which days do you work? Is it Monday through Friday, and do you take jobs on Saturdays?

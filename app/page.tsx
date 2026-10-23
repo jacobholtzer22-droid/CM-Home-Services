@@ -1,13 +1,10 @@
 import type { Metadata } from 'next'
 import AreaList from '@/components/AreaList'
-import Benefits from '@/components/Benefits'
-import ContactForm from '@/components/ContactForm'
 import CtaBand from '@/components/CtaBand'
 import FaqAccordion from '@/components/FaqAccordion'
 import Gallery from '@/components/Gallery'
 import Hero from '@/components/Hero'
 import JsonLd from '@/components/JsonLd'
-import ProcessSteps from '@/components/ProcessSteps'
 import PromoBand from '@/components/PromoBand'
 import ServiceGrid from '@/components/ServiceGrid'
 import TrustStrip from '@/components/TrustStrip'
@@ -23,6 +20,7 @@ export function generateMetadata(): Metadata {
   return buildMetadata({ kind: 'home', path: '/', description: fm.description, image: fm.image }).metadata
 }
 
+/** Photos first: the owner's job photos lead, right under the hero and trust strip. */
 export default async function HomePage() {
   const { content } = await loadContent(CONTENT)
   return (
@@ -36,26 +34,13 @@ export default async function HomePage() {
       <div className="mx-auto max-w-page px-4 sm:px-6">
         <TrustStrip />
       </div>
-      <article className="mx-auto max-w-3xl px-4 pt-6 sm:px-6">{content}</article>
+      <Gallery heading={`Recent Work in ${config.primaryCity} and Nearby Towns`} />
       <ServiceGrid />
+      <article className="mx-auto max-w-3xl px-4 pb-16 sm:px-6">{content}</article>
       <PromoBand />
-      <Benefits />
-      <Gallery />
       <AreaList />
-      <ProcessSteps />
       <FaqAccordion faqs={config.faqs} />
-      {config.homeFormHeading ? (
-        <section id="estimate" className="border-t-2 border-primary-dark bg-primary-soft">
-          <div className="mx-auto max-w-3xl px-4 py-16 sm:px-6 md:py-24">
-            <h2 className="font-heading text-3xl font-bold text-primary-dark md:text-4xl">{config.homeFormHeading}</h2>
-            <div className="mt-8">
-              <ContactForm />
-            </div>
-          </div>
-        </section>
-      ) : (
-        <CtaBand />
-      )}
+      <CtaBand />
     </>
   )
 }

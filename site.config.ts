@@ -56,7 +56,7 @@ const siteConfig = {
         'A fall cleanup typically clears leaves from your lawn and beds and picks up fallen branches, with the exact scope set at a free estimate.',
       priceFrom: null,
       priceNote: 'set after a free estimate, and jobs start at a $200 minimum',
-      image: 'stock-red-rake-leaf-pile.jpg',
+      image: null,
       faqs: [
         {
           q: 'Will my yard need one fall cleanup visit or two?',
@@ -83,7 +83,7 @@ const siteConfig = {
         'Old furniture, appliances, boxes, and yard debris taken off your property. Describe what you have and we will confirm it is something we take.',
       priceFrom: null,
       priceNote: 'set after a free estimate, and jobs start at a $200 minimum',
-      image: 'stock-old-furniture-pile-junk.jpg',
+      image: null,
       faqs: [
         {
           q: 'What kinds of junk do you take?',
@@ -110,7 +110,7 @@ const siteConfig = {
         'Hedges trimmed back into shape so they stay dense and full instead of growing leggy and bare at the bottom.',
       priceFrom: null,
       priceNote: 'set after a free estimate',
-      image: 'stock-hedge-trimmer-round-shrub.jpg',
+      image: null,
       faqs: [
         {
           q: 'How often should hedges be trimmed?',
@@ -160,7 +160,7 @@ const siteConfig = {
         'Sprinkler system help for homeowners. Tell us what your system is doing and we will confirm whether it is something we handle.',
       priceFrom: null,
       priceNote: 'set after a free estimate',
-      image: 'stock-lawn-sprinkler-spraying.jpg',
+      image: null,
       faqs: [
         {
           q: 'Do you winterize sprinkler systems?',
@@ -183,7 +183,7 @@ const siteConfig = {
         'A spring cleanup typically clears winter debris, leftover leaves, and fallen branches and gets your beds ready for the season.',
       priceFrom: null,
       priceNote: 'set after a free estimate, and jobs start at a $200 minimum',
-      image: 'job-front-bed-after.jpg',
+      image: 'job-side-bed-after.jpg',
       faqs: [
         {
           q: 'When should I book a spring cleanup?',
@@ -267,19 +267,18 @@ const siteConfig = {
   ],
 
   images: {
-    hero: 'stock-fall-leaves-blower-lawn.jpg',
+    hero: 'job-front-bed-rock-border-after.jpg',
     about: 'job-bed-around-stone-wall.jpg',
-    // Owner job photos only. Stock never goes in the gallery.
+    // Owner job photos only, finished jobs first and "before" shots last. The hero photo is not repeated here.
     gallery: [
+      'job-paver-patio-arborvitae.jpg',
       'job-side-bed-after.jpg',
-      'job-side-bed-before.jpg',
-      'job-front-bed-rock-border-after.jpg',
-      'job-front-bed-rock-border-before.jpg',
       'job-island-bed-shed.jpg',
       'job-front-bed-after.jpg',
-      'job-front-bed-before.jpg',
       'job-bed-around-stone-wall.jpg',
-      'job-paver-patio-arborvitae.jpg',
+      'job-side-bed-before.jpg',
+      'job-front-bed-rock-border-before.jpg',
+      'job-front-bed-before.jpg',
     ],
   },
 
@@ -310,21 +309,11 @@ const siteConfig = {
   },
 
   heroHeading: 'Fall Cleanups and Junk Removal in Hamilton, NJ and Nearby Towns',
-  homeFormHeading: 'Need the leaves gone or the junk hauled off?',
 
   trustItems: [
     { label: 'Serving Mercer, Monmouth and Burlington County towns', href: '/service-areas' },
     { label: 'Free estimates', href: null },
     { label: '15% off for veterans', href: null },
-  ],
-
-  benefits: [
-    { title: 'Free estimates', text: 'We look at the property and give you a price before any work starts.' },
-    { title: '15% off for veterans', text: 'Mention it when you call or send the form and we will apply it to your estimate.' },
-    { title: 'Based in Hamilton', text: 'Serving Mercer, Monmouth, and Burlington County towns.' },
-    { title: 'Cleanups and junk removal together', text: 'Yard cleanups and junk removal from the same crew.' },
-    { title: 'Work for homeowners', text: 'Residential yards and properties, nothing else.' },
-    { title: 'A real price', text: 'Call or send the form and get a real estimate, not a ballpark.' },
   ],
 
   process: [
