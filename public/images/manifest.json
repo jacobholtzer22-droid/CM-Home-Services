@@ -1,9 +1,53 @@
 {
-  "stock-fall-leaves-along-curb.jpg": {
+  "job-bed-around-stone-wall.jpg": {
     "width": 2400,
-    "height": 3600,
-    "alt": "Dry brown fall leaves gathered in a line along a concrete street curb beside a parked car tire",
-    "base": "stock-fall-leaves-along-curb",
+    "height": 2503,
+    "alt": "Freshly edged dark planting bed wrapping a stone-faced fire pit wall beside a green side lawn",
+    "base": "job-bed-around-stone-wall",
+    "sizes": [
+      640,
+      1024,
+      1920
+    ]
+  },
+  "job-front-bed-after.jpg": {
+    "width": 2400,
+    "height": 1800,
+    "alt": "Front yard planting bed after cleanup, freshly dressed in dark bedding with a crisp curved edge along the lawn",
+    "base": "job-front-bed-after",
+    "sizes": [
+      640,
+      1024,
+      1920
+    ]
+  },
+  "job-front-bed-before.jpg": {
+    "width": 2400,
+    "height": 1800,
+    "alt": "Front yard planting bed before cleanup, with bare patchy soil and scattered weeds around a small flowering tree",
+    "base": "job-front-bed-before",
+    "sizes": [
+      640,
+      1024,
+      1920
+    ]
+  },
+  "job-paver-patio-arborvitae.jpg": {
+    "width": 2400,
+    "height": 1800,
+    "alt": "Curved paver patio with lounge chairs beside a row of tall arborvitae and ornamental grasses in a backyard",
+    "base": "job-paver-patio-arborvitae",
+    "sizes": [
+      640,
+      1024,
+      1920
+    ]
+  },
+  "job-paver-patio-curve.jpg": {
+    "width": 2400,
+    "height": 1800,
+    "alt": "Looking down at a curved paver patio border running past two tall arborvitae and a planting bed",
+    "base": "job-paver-patio-curve",
     "sizes": [
       640,
       1024,
@@ -59,28 +103,6 @@
     "height": 1601,
     "alt": "Red plastic rake resting on a raked pile of yellow and brown fall leaves on pavement",
     "base": "stock-red-rake-leaf-pile",
-    "sizes": [
-      640,
-      1024,
-      1920
-    ]
-  },
-  "stock-spring-tulip-bed-lawn.jpg": {
-    "width": 2000,
-    "height": 1600,
-    "alt": "Spring tulips in a neatly edged planting bed around a tree trunk on a suburban front lawn",
-    "base": "stock-spring-tulip-bed-lawn",
-    "sizes": [
-      640,
-      1024,
-      1920
-    ]
-  },
-  "stock-stone-edged-flower-bed.jpg": {
-    "width": 2400,
-    "height": 1503,
-    "alt": "Curved flower bed of daylilies and daisies lined with stone edging along a freshly cut green lawn",
-    "base": "stock-stone-edged-flower-bed",
     "sizes": [
       640,
       1024,

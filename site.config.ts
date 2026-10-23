@@ -137,7 +137,7 @@ const siteConfig = {
         'Stone projects for your yard. Tell us what you have in mind, whether edging, a path, or a small patio, and we will say if it is a fit.',
       priceFrom: null,
       priceNote: 'set after a free estimate',
-      image: 'stock-stone-edged-flower-bed.jpg',
+      image: 'job-paver-patio-arborvitae.jpg',
       faqs: [
         {
           q: 'Do you build stone patios?',
@@ -183,7 +183,7 @@ const siteConfig = {
         'A spring cleanup typically clears winter debris, leftover leaves, and fallen branches and gets your beds ready for the season.',
       priceFrom: null,
       priceNote: 'set after a free estimate, and jobs start at a $200 minimum',
-      image: 'stock-spring-tulip-bed-lawn.jpg',
+      image: 'job-front-bed-after.jpg',
       faqs: [
         {
           q: 'When should I book a spring cleanup?',
@@ -268,8 +268,15 @@ const siteConfig = {
 
   images: {
     hero: 'stock-fall-leaves-blower-lawn.jpg',
-    about: 'stock-fall-leaves-along-curb.jpg',
-    gallery: [],
+    about: 'job-bed-around-stone-wall.jpg',
+    // Owner job photos only. Stock never goes in the gallery.
+    gallery: [
+      'job-front-bed-after.jpg',
+      'job-front-bed-before.jpg',
+      'job-bed-around-stone-wall.jpg',
+      'job-paver-patio-arborvitae.jpg',
+      'job-paver-patio-curve.jpg',
+    ],
   },
 
   contactForm: {

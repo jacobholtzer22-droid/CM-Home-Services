@@ -15,7 +15,7 @@ const NAV = [
 
 export default function Header() {
   return (
-    <header className="sticky top-0 z-40 border-b border-line bg-surface/95 backdrop-blur">
+    <header className="sticky top-0 z-40 border-b border-line bg-surface">
       <div className="mx-auto flex max-w-page items-center justify-between gap-4 px-4 py-3 sm:px-6">
         <Link href="/" className="font-heading text-xl font-bold tracking-tight text-primary-dark">
           {theme.logo ? <img src={theme.logo.src} alt={theme.logo.alt} className="h-10 w-auto" /> : config.displayName}

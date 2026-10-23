@@ -4,6 +4,7 @@ import Benefits from '@/components/Benefits'
 import ContactForm from '@/components/ContactForm'
 import CtaBand from '@/components/CtaBand'
 import FaqAccordion from '@/components/FaqAccordion'
+import Gallery from '@/components/Gallery'
 import Hero from '@/components/Hero'
 import JsonLd from '@/components/JsonLd'
 import ProcessSteps from '@/components/ProcessSteps'
@@ -39,8 +40,9 @@ export default async function HomePage() {
       <ServiceGrid />
       <PromoBand />
       <Benefits />
-      <ProcessSteps />
+      <Gallery />
       <AreaList />
+      <ProcessSteps />
       <FaqAccordion faqs={config.faqs} />
       {config.homeFormHeading ? (
         <section id="estimate" className="border-t-2 border-primary-dark bg-primary-soft">

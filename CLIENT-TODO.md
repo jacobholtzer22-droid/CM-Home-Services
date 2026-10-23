@@ -1,6 +1,6 @@
 # Questions for the owner
 
-1. Send the logo (transparent PNG or SVG) and job photos: cleanups, junk loads, trimmed hedges, stone work, before and after.
+1. Thanks for the logo and the first job photos. Can you send the logo as a transparent PNG or SVG, and more job photos: fall cleanups, junk loads, trimmed hedges, irrigation, and an after shot of the overgrown pool and deck yard?
 2. Is your home base Hamilton Township, NJ 08620 (the area around 30 Kay Rd)?
 3. Do you want your street address shown anywhere on the site, or kept off it?
 4. Which days do you work? Is it Monday through Friday, and do you take jobs on Saturdays?
@@ -26,3 +26,5 @@
 24. The site says "we go over the finished job with you before we leave." Is that how you work?
 25. Do you clean up hedge clippings as part of a hedge trim?
 26. Do you clear out garages, basements, and sheds?
+27. Your logo shows a pressure washer. Do you offer pressure washing, and should it be on the site?
+28. Did you build the paver patio in your photos, or did you do the beds and cleanup around it?
