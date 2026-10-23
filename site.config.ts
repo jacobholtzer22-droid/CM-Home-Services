@@ -55,7 +55,7 @@ const siteConfig = {
       shortDescription:
         'A fall cleanup typically clears leaves from your lawn and beds and picks up fallen branches, with the exact scope set at a free estimate.',
       priceFrom: null,
-      priceNote: 'set after a free estimate, and jobs start at a $200 minimum',
+      priceNote: 'set after a free estimate, and jobs start at a $125 minimum',
       image: null,
       faqs: [
         {
@@ -82,7 +82,7 @@ const siteConfig = {
       shortDescription:
         'Old furniture, appliances, boxes, and yard debris taken off your property. Describe what you have and we will confirm it is something we take.',
       priceFrom: null,
-      priceNote: 'set after a free estimate, and jobs start at a $200 minimum',
+      priceNote: 'set after a free estimate, and jobs start at a $125 minimum',
       image: null,
       faqs: [
         {
@@ -182,7 +182,7 @@ const siteConfig = {
       shortDescription:
         'A spring cleanup typically clears winter debris, leftover leaves, and fallen branches and gets your beds ready for the season.',
       priceFrom: null,
-      priceNote: 'set after a free estimate, and jobs start at a $200 minimum',
+      priceNote: 'set after a free estimate, and jobs start at a $125 minimum',
       image: 'job-side-bed-after.jpg',
       faqs: [
         {
@@ -234,7 +234,7 @@ const siteConfig = {
     },
     {
       q: 'Is there a minimum job size?',
-      a: 'Yes. Jobs start at a $200 minimum, and every job is priced after a free estimate.',
+      a: 'Yes. Jobs start at a $125 minimum, and every job is priced after a free estimate.',
     },
     {
       q: 'Where do you work?',
@@ -306,7 +306,7 @@ const siteConfig = {
   offer: {
     headline: '15% Off for Veterans',
     detail: 'Veterans get 15% off. Mention it when you call or send the form and we will apply it to your estimate.',
-    finePrint: 'Jobs start at a $200 minimum.',
+    finePrint: 'Jobs start at a $125 minimum.',
   },
 
   heroHeading: 'Fall Cleanups and Junk Removal in Hamilton, NJ and Nearby Towns',
