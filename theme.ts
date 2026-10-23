@@ -48,28 +48,29 @@ export interface Theme {
   logo: { src: string; alt: string } | null
 }
 
-// "Cultivated" direction, provisional until the client logo arrives: deep
-// green, warm off-white, burnt orange as the single accent. Retune this
-// palette to the logo when it lands.
+// Palette taken from the client's logo: near-black navy for the header,
+// footer, and dark bands (so the logo sits on the ground it was drawn for),
+// the logo's bright blue as the single accent, and a cool off-white page.
 const theme: Theme = {
   palette: {
-    primary: '#1F3D2B',
-    primaryDark: '#152A1E',
-    primarySoft: '#E9F0EA',
-    accent: '#B8511A',
-    accentDark: '#8E3E13',
-    bg: '#FAF8F3',
+    primary: '#0B3A5C',
+    primaryDark: '#08141F',
+    primarySoft: '#E7EFF7',
+    accent: '#1866B4',
+    accentDark: '#114E8C',
+    bg: '#F6F8FB',
     surface: '#FFFFFF',
-    ink: '#1B1F1C',
-    muted: '#5F6B63',
-    line: '#E2E6E0',
-    onPrimary: '#F4F7F3',
+    ink: '#14202B',
+    muted: '#56636F',
+    line: '#DDE4EC',
+    onPrimary: '#F2F6FA',
     onAccent: '#FFFFFF',
   },
   heroVariant: 'full-bleed',
   radius: 0.375,
   shadow: '0 1px 2px rgb(20 30 24 / 0.08)',
-  logo: null,
+  // Cut from the owner's logo file (brand/logo-owner-black-bg.png) with the black matte removed.
+  logo: { src: '/logo.png', alt: 'CM Home Services logo' },
 }
 
 export default theme
