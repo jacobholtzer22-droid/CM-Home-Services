@@ -32,6 +32,39 @@
       1920
     ]
   },
+  "job-front-bed-rock-border-after.jpg": {
+    "width": 2400,
+    "height": 2168,
+    "alt": "Curved front planting bed after cleanup, dressed in dark bedding between the lawn and a river rock border",
+    "base": "job-front-bed-rock-border-after",
+    "sizes": [
+      640,
+      1024,
+      1920
+    ]
+  },
+  "job-front-bed-rock-border-before.jpg": {
+    "width": 2400,
+    "height": 2475,
+    "alt": "Front planting bed before cleanup, with thin faded soil, small shrubs, and a river rock bed under a weeping tree",
+    "base": "job-front-bed-rock-border-before",
+    "sizes": [
+      640,
+      1024,
+      1920
+    ]
+  },
+  "job-island-bed-shed.jpg": {
+    "width": 2400,
+    "height": 1800,
+    "alt": "Freshly edged island planting bed with dark bedding and young shrubs in front of a backyard shed",
+    "base": "job-island-bed-shed",
+    "sizes": [
+      640,
+      1024,
+      1920
+    ]
+  },
   "job-paver-patio-arborvitae.jpg": {
     "width": 2400,
     "height": 1800,
@@ -43,11 +76,22 @@
       1920
     ]
   },
-  "job-paver-patio-curve.jpg": {
+  "job-side-bed-after.jpg": {
     "width": 2400,
     "height": 1800,
-    "alt": "Looking down at a curved paver patio border running past two tall arborvitae and a planting bed",
-    "base": "job-paver-patio-curve",
+    "alt": "Long planting bed along a house side after cleanup, freshly dressed in dark bedding with a clean lawn edge",
+    "base": "job-side-bed-after",
+    "sizes": [
+      640,
+      1024,
+      1920
+    ]
+  },
+  "job-side-bed-before.jpg": {
+    "width": 2400,
+    "height": 2233,
+    "alt": "Side yard planting bed before cleanup, with faded bare soil, weeds, and a river rock border beside the lawn",
+    "base": "job-side-bed-before",
     "sizes": [
       640,
       1024,

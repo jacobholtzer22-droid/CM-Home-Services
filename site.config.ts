@@ -271,11 +271,15 @@ const siteConfig = {
     about: 'job-bed-around-stone-wall.jpg',
     // Owner job photos only. Stock never goes in the gallery.
     gallery: [
+      'job-side-bed-after.jpg',
+      'job-side-bed-before.jpg',
+      'job-front-bed-rock-border-after.jpg',
+      'job-front-bed-rock-border-before.jpg',
+      'job-island-bed-shed.jpg',
       'job-front-bed-after.jpg',
       'job-front-bed-before.jpg',
       'job-bed-around-stone-wall.jpg',
       'job-paver-patio-arborvitae.jpg',
-      'job-paver-patio-curve.jpg',
     ],
   },
 

@@ -28,7 +28,11 @@ Converted from HEIC, rotated upright, downscaled to 2400px wide, all metadata (i
 | job-front-bed-before.jpg | Gallery | IMG_8152 | Before shot of the same bed |
 | job-bed-around-stone-wall.jpg | About page, gallery | IMG_7734 | Right edge cropped to remove a branded trash bin and a parked SUV |
 | job-paver-patio-arborvitae.jpg | Stone Work page, gallery | IMG_8172 | Confirm with the owner that he built this patio |
-| job-paver-patio-curve.jpg | Gallery | IMG_7888 | Same patio |
+| job-side-bed-after.jpg | Gallery (lead photo) | IMG_8574 | After shot of the side bed |
+| job-side-bed-before.jpg | Gallery | IMG_8561 | Before shot of the same bed; right edge cropped to remove a crew member |
+| job-front-bed-rock-border-after.jpg | Gallery | IMG_8567 | Top cropped to remove the house number and parked cars |
+| job-front-bed-rock-border-before.jpg | Gallery | IMG_8559 | Left edge cropped to remove the house number |
+| job-island-bed-shed.jpg | Gallery | IMG_8376 | |
 
-Not used: IMG_7736 (house number readable on the front door), IMG_7711, IMG_7717, IMG_7718, IMG_7889 (repeats of the same jobs), IMG_8187, IMG_8190, IMG_8192, IMG_8200 (overgrown pool and deck area with no after shot yet).
+Not used: IMG_7736 (house number readable on the front door), IMG_7711, IMG_7717, IMG_7718, IMG_7888, IMG_7889 (repeats of the same jobs; IMG_7888 was in the gallery until the second batch), IMG_8560, IMG_8569 (repeats of the rock border house), IMG_8355, IMG_8357 (unclear whether they show his trimming), IMG_8187, IMG_8190, IMG_8192, IMG_8200 (overgrown pool and deck area with no after shot yet).
 

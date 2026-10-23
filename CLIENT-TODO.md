@@ -28,3 +28,4 @@
 26. Do you clear out garages, basements, and sheds?
 27. Your logo shows a pressure washer. Do you offer pressure washing, and should it be on the site?
 28. Did you build the paver patio in your photos, or did you do the beds and cleanup around it?
+29. Two of your photos show shaped shrubs in front of a brick and siding house (IMG_8355, IMG_8357). Did you trim those, and can we use them on the Hedge Trimming page?
