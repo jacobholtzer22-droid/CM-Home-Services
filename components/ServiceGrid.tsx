@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import { config } from '@/lib/config'
-import Img from './Img'
 
 interface Props {
   heading?: string
@@ -10,7 +9,9 @@ interface Props {
 
 /**
  * Services as a numbered list with heavy rules, not a row of floating cards.
- * Each row is one link: numeral, photo when set, name, description, price when known.
+ * Each row is one link: numeral, name, description, price when known. No
+ * thumbnails: service.image is for the service page sidebar, and a list where
+ * some rows have photos and some do not cannot keep its titles aligned.
  */
 export default function ServiceGrid({ heading = 'Our Services', exclude }: Props) {
   const services = config.services.filter((s) => s.slug !== exclude)
@@ -21,22 +22,12 @@ export default function ServiceGrid({ heading = 'Our Services', exclude }: Props
       <ol className="mt-10 border-t-2 border-primary-dark">
         {services.map((s, i) => (
           <li key={s.slug} className="border-b border-line">
-            <Link href={`/services/${s.slug}`} className="group grid gap-3 py-7 md:grid-cols-12 md:items-center md:gap-8">
+            <Link href={`/services/${s.slug}`} className="group grid gap-3 py-7 md:grid-cols-12 md:items-baseline md:gap-8">
               <span className="font-heading text-sm font-semibold tabular-nums text-primary md:col-span-1">
                 {String(i + 1).padStart(2, '0')}
               </span>
-              {/* No image, no frame: the name takes the photo's columns instead of leaving an empty slot. */}
-              {s.image && (
-                <div className="overflow-hidden rounded-site md:col-span-2">
-                  <Img name={s.image} sizes="(min-width: 768px) 16vw, 100vw" className="aspect-[4/3] h-auto w-full object-cover" />
-                </div>
-              )}
-              <h3
-                className={`font-heading text-2xl font-semibold text-primary-dark group-hover:text-primary ${s.image ? 'md:col-span-3' : 'md:col-span-5'}`}
-              >
-                {s.name}
-              </h3>
-              <p className="text-base leading-relaxed text-muted md:col-span-4">{s.shortDescription}</p>
+              <h3 className="font-heading text-2xl font-semibold text-primary-dark group-hover:text-primary md:col-span-4">{s.name}</h3>
+              <p className="text-base leading-relaxed text-muted md:col-span-5">{s.shortDescription}</p>
               <span className="text-sm font-semibold text-ink md:col-span-2 md:text-right">
                 {s.priceFrom !== null ? `From $${s.priceFrom}` : 'Free estimate'}
               </span>

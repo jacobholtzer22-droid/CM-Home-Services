@@ -279,6 +279,7 @@ const siteConfig = {
       'job-side-bed-before.jpg',
       'job-front-bed-rock-border-before.jpg',
       'job-front-bed-before.jpg',
+      'job-paver-patio-border-curve.jpg',
     ],
   },
 
