@@ -1,6 +1,6 @@
 # Questions for the owner
 
-1. Send fall cleanup and junk removal photos from the next three jobs, shot from the street, before and after, even quick phone shots. Those two pages have no photos right now.
+1. Send fall cleanup, junk removal, and irrigation photos from the next jobs, shot from the street, before and after, even quick phone shots. Those three service pages have no photos right now.
 2. Is your home base Hamilton Township, NJ 08620 (the area around 30 Kay Rd)?
 3. Do you want your street address shown anywhere on the site, or kept off it?
 4. Which days do you work? Is it Monday through Friday, and do you take jobs on Saturdays?

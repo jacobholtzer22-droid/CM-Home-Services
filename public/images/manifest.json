@@ -10,6 +10,28 @@
       1920
     ]
   },
+  "job-curved-bed-shrubs.jpg": {
+    "width": 2400,
+    "height": 1760,
+    "alt": "Curved planting bed with dark bedding around a round shrub and a small tree on a sunny lawn",
+    "base": "job-curved-bed-shrubs",
+    "sizes": [
+      640,
+      1024,
+      1920
+    ]
+  },
+  "job-driveway-island-bed.jpg": {
+    "width": 2400,
+    "height": 1800,
+    "alt": "Freshly edged island bed with dark bedding and shrubs beside a driveway in front of a brick house",
+    "base": "job-driveway-island-bed",
+    "sizes": [
+      640,
+      1024,
+      1920
+    ]
+  },
   "job-front-bed-after.jpg": {
     "width": 2400,
     "height": 1800,
@@ -54,11 +76,55 @@
       1920
     ]
   },
+  "job-hedge-bed-after.jpg": {
+    "width": 2400,
+    "height": 2609,
+    "alt": "Trimmed hedges above a freshly edged front bed with dark bedding below a wide front window",
+    "base": "job-hedge-bed-after",
+    "sizes": [
+      640,
+      1024,
+      1920
+    ]
+  },
+  "job-hedge-bed-before.jpg": {
+    "width": 2400,
+    "height": 2250,
+    "alt": "Overgrown hedges and shrubs crowding the front of a brick and siding ranch house before trimming",
+    "base": "job-hedge-bed-before",
+    "sizes": [
+      640,
+      1024,
+      1920
+    ]
+  },
   "job-island-bed-shed.jpg": {
     "width": 2400,
     "height": 1800,
     "alt": "Freshly edged island planting bed with dark bedding and young shrubs in front of a backyard shed",
     "base": "job-island-bed-shed",
+    "sizes": [
+      640,
+      1024,
+      1920
+    ]
+  },
+  "job-overgrown-bed-after.jpg": {
+    "width": 2400,
+    "height": 2572,
+    "alt": "Cleared planting bed along a brick house wall, dressed in dark bedding with round shrubs and a curved edge",
+    "base": "job-overgrown-bed-after",
+    "sizes": [
+      640,
+      1024,
+      1920
+    ]
+  },
+  "job-overgrown-bed-before.jpg": {
+    "width": 2400,
+    "height": 1800,
+    "alt": "Overgrown planting bed with weeds, bare soil, and tangled shrubs along a brick house wall before cleanup",
+    "base": "job-overgrown-bed-before",
     "sizes": [
       640,
       1024,
@@ -87,6 +153,28 @@
       1920
     ]
   },
+  "job-pool-area-after.jpg": {
+    "width": 2400,
+    "height": 990,
+    "alt": "River rock border with black edging around a pool deck and filter after a backyard cleanup",
+    "base": "job-pool-area-after",
+    "sizes": [
+      640,
+      1024,
+      1920
+    ]
+  },
+  "job-pool-area-before.jpg": {
+    "width": 2400,
+    "height": 1800,
+    "alt": "Weedy ground and patchy grass around a pool filter and pool wall under a deck before cleanup",
+    "base": "job-pool-area-before",
+    "sizes": [
+      640,
+      1024,
+      1920
+    ]
+  },
   "job-side-bed-after.jpg": {
     "width": 2400,
     "height": 1800,
@@ -107,6 +195,16 @@
       640,
       1024,
       1920
+    ]
+  },
+  "job-side-bed-rock-edge.jpg": {
+    "width": 1663,
+    "height": 4032,
+    "alt": "Narrow side bed along a white house, dressed in dark bedding with a river rock edge beside it",
+    "base": "job-side-bed-rock-edge",
+    "sizes": [
+      640,
+      1024
     ]
   }
 }

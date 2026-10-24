@@ -27,3 +27,6 @@ next-env.d.ts
 
 # local tooling
 .claude/
+
+# Owner photo drops: raw files carry location data. Only cropped, stripped job-*.jpg copies go in public/images/originals.
+Cole Website Photos/

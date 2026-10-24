@@ -8,9 +8,10 @@ import Img from './Img'
 export default function Gallery({ heading = 'Recent Work' }: { heading?: string }) {
   const images = config.images.gallery
   if (images.length === 0) return null
-  // The 2x2 lead tile only fills evenly with enough photos. Below six, every
-  // tile is the same size, four across when there are exactly four.
-  const lead = images.length >= 6
+  // The 2x2 lead tile only fills evenly with nine or more photos (9 or 12 fill
+  // three columns). Below nine, every tile is the same size, four across when
+  // there are exactly four, otherwise three.
+  const lead = images.length >= 9
   const cols = lead ? 'sm:grid-cols-2 lg:grid-cols-3' : images.length === 4 ? 'sm:grid-cols-2 lg:grid-cols-4' : 'sm:grid-cols-2 lg:grid-cols-3'
   return (
     <section className="bg-primary-dark text-on-primary">

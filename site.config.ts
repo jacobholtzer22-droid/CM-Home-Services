@@ -110,7 +110,7 @@ const siteConfig = {
         'Hedges trimmed back into shape so they stay dense and full instead of growing leggy and bare at the bottom.',
       priceFrom: null,
       priceNote: 'set after a free estimate',
-      image: null,
+      image: 'job-hedge-bed-after.jpg',
       faqs: [
         {
           q: 'How often should hedges be trimmed?',
@@ -269,13 +269,14 @@ const siteConfig = {
   images: {
     hero: 'job-paver-patio-arborvitae.jpg',
     about: 'job-bed-around-stone-wall.jpg',
-    // Owner job photos outside the hero and beforeAfter, except job-front-bed-after.jpg,
-    // which is also pair 3's after: it is the only other front-yard shot. Stock never goes here.
+    // Owner job photos not used in the hero or beforeAfter, strongest first. Stock never goes here.
     gallery: [
-      'job-paver-patio-border-curve.jpg',
+      'job-driveway-island-bed.jpg',
       'job-island-bed-shed.jpg',
+      'job-curved-bed-shrubs.jpg',
       'job-bed-around-stone-wall.jpg',
-      'job-front-bed-after.jpg',
+      'job-side-bed-rock-edge.jpg',
+      'job-paver-patio-border-curve.jpg',
     ],
   },
 
@@ -288,6 +289,9 @@ const siteConfig = {
       caption: 'Front bed with river rock border',
     },
     { before: 'job-front-bed-before.jpg', after: 'job-front-bed-after.jpg', caption: 'Front bed cleanup' },
+    { before: 'job-hedge-bed-before.jpg', after: 'job-hedge-bed-after.jpg', caption: 'Hedge trimming and bed edging' },
+    { before: 'job-overgrown-bed-before.jpg', after: 'job-overgrown-bed-after.jpg', caption: 'Overgrown bed cleared and edged' },
+    { before: 'job-pool-area-before.jpg', after: 'job-pool-area-after.jpg', caption: 'Pool area cleanup with rock border' },
   ],
 
   contactForm: {
