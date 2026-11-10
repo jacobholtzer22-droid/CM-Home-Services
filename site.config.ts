@@ -312,7 +312,7 @@ const siteConfig = {
   },
 
   // Flip to false at launch, then redeploy.
-  prelaunch: true,
+  prelaunch: false,
 
   offer: {
     headline: '15% Off for Veterans',
