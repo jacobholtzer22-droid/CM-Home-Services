@@ -338,7 +338,7 @@ const siteConfig = {
     { title: 'Walkthrough', text: 'We go over the finished job with you before we leave.' },
   ],
 
-  domain: 'https://www.cmhomeservicesnj.com',
+  domain: 'https://www.cmhomeservicesllc.com',
 } satisfies SiteConfigInput
 
 export default siteConfig
