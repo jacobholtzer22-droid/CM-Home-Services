@@ -1,12 +1,10 @@
-# Go live
+Tracking install. Write this tracking block into site.config.ts as the `tracking` key, exactly as given, and change nothing else (AGENT.md, CI mode, Tracking installs):
 
-If `site.config.ts` has `launch.indexable`, set it to `true`.
-Otherwise if it has `prelaunch`, set it to `false`.
+```ts
+tracking: {
+  googleAdsId: 'AW-18533635579',
+  conversions: { form: 'AW-18533635579/GCOMCMy_lqwdEPurw4VF', call: 'AW-18533635579/wVc0CPi_97UdEPurw4VF' },
+},
+```
 
-Change nothing else. Do not touch content, design, images,
-components, or any other config field. Then run the gate and report.
-
-The two flags mean opposite things, so take the value from whichever
-key this repo actually has and do not add the other one. If neither
-key is present, stop and say so in BUILD-REPORT.md rather than
-guessing which generation this repo is.
+Then run the gate: check 22 must pass.
